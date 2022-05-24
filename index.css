@@ -1,0 +1,319 @@
+@font-face {
+    font-family: 'Ms Madi';
+    src: url("MM/Ms_Madi/MsMadi-Regular.ttf");
+}
+
+.font-face {
+    font-family: 'Ms Madi', sans-serif;
+    font-size: 18px;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+/* Navigation Menu css */
+
+.nav-div {
+    width: 98%;
+    position: fixed;    
+    padding: 1%;
+    z-index: 1;
+    background-color: black;
+    top: 0;
+}
+
+/* .nav-div > div {
+    margin-right: 20px;
+} */
+
+.black-bg {
+    background-color: black;
+}
+
+.nav-menu {
+    float: left;
+    width: 25%;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    height: 20px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+    /* background-color: black; */
+}
+
+a:hover {
+    text-decoration: none;
+    background-color: rosybrown;
+}
+
+/* Header Image css */
+
+.bg-img {
+    /* background-image: url("images/cafe-5.jpg"); */
+    width: 100%;
+    /* background-repeat: no-repeat; */
+}
+
+.cafename-div {
+    font-size: 40px;
+    color: black;
+    font-style: italic;
+    position: absolute;
+    top: 130px;
+    left: 150px;
+    width: 400px;
+    height: 270px;
+    background-color: whitesmoke;
+    opacity: 80%;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.timing-div {
+    color: white;
+    font-size: 16px;
+    font-style: italic;
+    position: absolute;
+    top: 490px;
+    left: 50px;
+}
+
+.address-div {
+    color: white;
+    font-size: 16px;
+    font-style: italic;
+    position: absolute;
+    top: 490px;
+    right: 50px;
+    background-color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* About Section CSS */
+
+#about {
+    /* top: 50px; */
+    /* left: 455px; */
+    width: 600px;
+    /* position: relative; */
+    /* text-align: center; */
+    margin: auto;
+}
+
+.padding-div {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.heading-div {
+    color: whitesmoke;
+    background-color: black;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding: 10px;
+}
+
+.para-content {
+    font-size: 18px;
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.quote {
+    font-size: 18px;
+    font-style: italic;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+
+.quote-box {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-left: 5px solid #ccc;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.cafe-interior {
+    width: 600px;
+    margin-bottom: 10px;
+}
+
+/* Menu Section CSS */
+
+#menu {
+    width: 600px;
+    margin: auto;
+}
+
+.menu-header {
+    width: 100%;
+    box-shadow: 0 0 20px 9px lightgrey;
+}
+
+.form-box {
+    width: 590px;
+    height: 800px;
+    position: relative;
+    margin: 6% auto;
+    background-color: whitesmoke;
+    padding: 5px;
+    overflow: hidden; /* important */
+}
+
+.button-box {
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px lightgray;
+    /* border-radius: 30px; */
+    text-align: center;
+}
+
+.toggle-btn {
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    /* outline: none; */
+    position: relative;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#btn {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background-color: lightgrey;
+    /* background-image: linear-gradient(to right, #ff105f, #ffad06); */
+    /* border-radius: 30px; */
+    transition: .5s;
+}
+
+.input-group {
+    /* top: 140px; */
+    position: absolute;
+    /* width: 280px; */
+    transition: .5s;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border: 0;
+    background: transparent;
+}
+
+#eat {
+    left: 50px;
+}
+
+#drink {
+    left: 650px;
+}
+
+#eat > p {
+    font-size: 18px;
+    font-style: italic;
+}
+
+#eat > h5 {
+    font-family: 'Ms Madi', cursive;
+    font-size: 24px;
+}
+
+#drink > p {
+    font-size: 18px;
+    font-style: italic;
+}
+
+#drink > h5 {
+    font-family: 'Ms Madi', cursive;
+    font-size: 24px;
+}
+
+.cafe-interior-div {
+    margin-top: 80px;
+}
+
+/* Location Section CSS */
+
+#location {
+    width: 600px;
+    position: relative;
+    /* text-align: center; */
+    margin: auto;
+}
+
+.FYI-inline {
+    display: inline;
+}
+
+.FYI-bg {
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.textbox {
+    font-size: 18px;
+    font-family: sans-serif;
+    width: 600px;
+    padding: 16px 8px;
+    border: 1px solid lightgrey;    
+}
+
+.message-btn {
+    padding: 8px 16px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#msg-btn:hover {
+    background-color: lightgrey;
+    color: black;
+}
+
+/* Footer Section CSS */
+
+footer {
+    margin-top: 60px;
+}
+
+.footer-div {
+    background-color: lightgrey;
+    width: 100%;
+    font-size: 14;
+    font-style: italic;
+    text-align: center;
+    padding: 30px 0;
+}
